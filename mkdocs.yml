@@ -1,0 +1,49 @@
+site_name: Two Book
+
+markdown_extensions:
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - meta
+
+nav:
+  - Home: README.md
+  - ASP.NET Framework: asp-net-framework/README.md
+  - C#: csharp/README.md
+  - Docker:
+    - docker/README.md
+    - .NET: docker/dotnet.md
+    - Caddy: docker/caddy.md
+    - PostgreSQL: docker/postgres.md
+    - SQL Server: docker/mssql.md
+  - GitHub Actions: github-actions/README.md
+  - JavaScript: javascript/README.md
+
+plugins:
+  - tags
+  - search
+
+theme:
+  name: material
+  highlightjs: true
+  hljs_languages:
+    - yaml
+    - rust
+    - csharp
