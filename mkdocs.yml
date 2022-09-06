@@ -36,6 +36,7 @@ nav:
   - Git: git/README.md
   - GitHub Actions: github-actions/README.md
   - JavaScript: javascript/README.md
+  - TypeScript: typescript/README.md
 
 plugins:
   - tags
