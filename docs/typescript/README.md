@@ -3,7 +3,7 @@ tags:
   - TypeScript
 ---
 
-# Template Literal Types
+## Template Literal Types
 
 ```typescript
 type World = "world";

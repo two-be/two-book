@@ -1,4 +1,4 @@
-# Remote Copying With the `scp` Command
+## Remote Copying With the `scp` Command
 
 ```
 scp [-r] [[user1@]hostname1:]file1 ... [[user2@]hostname2:]file2
