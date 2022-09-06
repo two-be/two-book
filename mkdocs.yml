@@ -33,6 +33,7 @@ nav:
     - Caddy: docker/caddy.md
     - PostgreSQL: docker/postgres.md
     - SQL Server: docker/mssql.md
+  - Git: git/README.md
   - GitHub Actions: github-actions/README.md
   - JavaScript: javascript/README.md
 

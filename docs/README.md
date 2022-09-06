@@ -1,17 +1,21 @@
-# Welcome to MkDocs
+# Remote Copying With the scp Command
 
-For full documentation visit [mkdocs.org](https://mkdocs.org).
+```
+scp [-r] [[user1@]hostname1:]file1 ... [[user2@]hostname2:]file2
+```
 
-## Commands
+option | description
+--- | ---
+`-r` | Use to recursively copy entire directories.
+`user1`, `user2` | Login account to use on the remote host.
+`hostname1`, `hostname2` | The names of the remote host from or to which the file is to be copied.
+`file1` | The file name or directory name to be copied. Several source file names may be included on one command line.
+`file2` | The destination file name or directory name.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs help` - Print this help message.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+*example*
+```
+scp ./file.ext user:/home/dest
+```
+```
+scp -r ./folder user:/home/dest
+```
