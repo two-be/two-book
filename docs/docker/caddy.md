@@ -1,7 +1,7 @@
 ---
 tags:
-  - caddy
-  - docker
+  - Caddy
+  - Docker
 ---
 
 ## docker-compose.yml

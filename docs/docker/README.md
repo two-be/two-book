@@ -1,3 +1,8 @@
+---
+tags:
+  - Docker
+---
+
 ## depends_on
 ```yaml
   depends_on:

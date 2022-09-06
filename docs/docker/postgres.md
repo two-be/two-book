@@ -1,7 +1,8 @@
 ---
 tags:
-  - docker
+  - Docker
   - postgres
+  - PostgreSQL
 ---
 
 ## docker-compose.yml

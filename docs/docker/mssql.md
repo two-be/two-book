@@ -1,8 +1,8 @@
 ---
 tags:
-  - docker
+  - Docker
   - mssql
-  - sql server
+  - Sql Server
 ---
 
 ## docker-compose.yml
