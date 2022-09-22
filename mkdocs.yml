@@ -35,6 +35,7 @@ nav:
     - SQL Server: docker/mssql.md
   - Git: git/README.md
   - GitHub Actions: github-actions/README.md
+  - Go: go/README.md
   - JavaScript: javascript/README.md
   - TypeScript: typescript/README.md
 
