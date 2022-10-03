@@ -25,6 +25,7 @@ markdown_extensions:
 
 nav:
   - Home: README.md
+  - .NET: dotnet/README.md
   - ASP.NET Framework: asp-net-framework/README.md
   - C#: csharp/README.md
   - Docker:
