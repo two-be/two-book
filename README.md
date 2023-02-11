@@ -13,5 +13,4 @@ pipenv run mkdocs serve
 
 # Actions
 
-- https://github.com/marketplace/actions/deploy-mkdocs
-- https://two-be.github.io/two-book
+- https://two-be.github.io/book

@@ -1,7 +1,6 @@
 ---
 tags:
-  - .NET Framework
-  - ASP.NET
+  - ASP.NET Framework
   - dotnet
 ---
 
