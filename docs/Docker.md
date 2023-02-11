@@ -33,7 +33,7 @@ tags:
           - "./appsettings.json:/app/appsettings.json"
     ```
 
-    ## Dockerfile
+    *Dockerfile*
     ```dockerfile
     FROM mcr.microsoft.com/dotnet/aspnet:x.x
     WORKDIR /app
@@ -61,7 +61,7 @@ tags:
       caddy_data:
     ```
 
-    ## Caddyfile
+    *Caddyfile*
     ```conf
     localhost {
         reverse_proxy 127.0.0.1:9005

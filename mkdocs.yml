@@ -30,6 +30,8 @@ plugins:
 
 theme:
   name: material
+  features:
+    - content.code.copy
   highlightjs: true
   hljs_languages:
     - yaml
